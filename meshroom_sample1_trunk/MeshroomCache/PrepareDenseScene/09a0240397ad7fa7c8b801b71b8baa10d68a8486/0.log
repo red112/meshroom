@@ -1,0 +1,16 @@
+Program called with the following parameters:
+ * evCorrection = 0
+ * input = "D:/meshroom_sample/MeshroomCache/StructureFromMotion/c09c96d30eedfb2a3127e2b6250dc939f51e76eb/sfm.abc"
+ * output = "D:/meshroom_sample/MeshroomCache/PrepareDenseScene/09a0240397ad7fa7c8b801b71b8baa10d68a8486"
+ * outputFileType = "exr"
+ * rangeSize = 40
+ * rangeStart = 0
+ * saveMatricesTxtFiles = 0
+ * saveMetadata = 1
+ * verboseLevel = "info"
+
+Exporting Scene Undistorted Images
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[13:02:25.284262][info] Median Camera Exposure: 0.0108, Median EV: 6.53282
+***************************************************

@@ -1,0 +1,103 @@
+Program called with the following parameters:
+ * crossMatching = 0
+ * describerTypes = "sift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [D:/meshroom_sample/MeshroomCache/FeatureExtraction/44f7052ad527d5608ba2abd4161cc19f3e4801bf]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList =  = [D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt]
+ * input = "D:/meshroom_sample/MeshroomCache/CameraInit/0b363caf2b37852dd58cad270d67d461805dae63/cameraInit.sfm"
+ * knownPosesGeometricErrorMax = 5
+ * matchFilePerImage = 0 (default)
+ * matchFromKnownCameraPoses = 0
+ * maxIteration = 2048
+ * maxMatches = 0
+ * output = "D:/meshroom_sample/MeshroomCache/FeatureMatching/0f525c5c13a92c2522bf8eff2952eb5cc486130c"
+ * photometricMatchingMethod = "ANN_L2"
+ * randomSeed = 5489 (default)
+ * rangeSize = 20
+ * rangeStart = 0
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+[13:02:15.875008][info] Load pair list from file: D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt
+[13:02:15.875008][info] loadPairs: image pair (57385936, 391269482) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (57385936, 702613737) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (57385936, 1441667864) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (57385936, 1566599810) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (57385936, 2127893832) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (391269482, 702613737) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (391269482, 1441667864) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (391269482, 1566599810) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (391269482, 2127893832) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (702613737, 1441667864) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (702613737, 1566599810) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (702613737, 2127893832) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (1441667864, 1566599810) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (1441667864, 2127893832) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] loadPairs: image pair (1566599810, 2127893832) added. File: "D:/meshroom_sample/MeshroomCache/ImageMatching/25b77cbf4c977ee7113f917d05e9b133a54f2473/imageMatches.txt".
+[13:02:15.875008][info] Number of pairs: 15
+[13:02:15.875008][info] There are 6 views and 15 image pairs.
+[13:02:15.876008][info] Load features and descriptors
+Loading regions
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[13:02:15.899036][info] Supported CUDA-Enabled GPU detected.
+***************************************************
+[13:02:16.030972][info] Putative matches (unknown poses): 15 image pairs.
+[13:02:16.030972][info] sift Regions Matching
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[13:02:17.744262][info] 15 putative image pair matches
+[13:02:17.744262][info] 	- image pair (57385936, 391269482) contains 1636 putative matches.
+[13:02:17.744262][info] 	- image pair (57385936, 702613737) contains 153 putative matches.
+[13:02:17.744262][info] 	- image pair (57385936, 1441667864) contains 132 putative matches.
+[13:02:17.744262][info] 	- image pair (57385936, 1566599810) contains 2648 putative matches.
+[13:02:17.744262][info] 	- image pair (57385936, 2127893832) contains 210 putative matches.
+[13:02:17.744262][info] 	- image pair (391269482, 702613737) contains 504 putative matches.
+[13:02:17.744262][info] 	- image pair (391269482, 1441667864) contains 478 putative matches.
+[13:02:17.744262][info] 	- image pair (391269482, 1566599810) contains 404 putative matches.
+[13:02:17.744262][info] 	- image pair (391269482, 2127893832) contains 1438 putative matches.
+[13:02:17.744262][info] 	- image pair (702613737, 1441667864) contains 866 putative matches.
+[13:02:17.744262][info] 	- image pair (702613737, 1566599810) contains 127 putative matches.
+[13:02:17.744262][info] 	- image pair (702613737, 2127893832) contains 2491 putative matches.
+[13:02:17.744262][info] 	- image pair (1441667864, 1566599810) contains 122 putative matches.
+[13:02:17.744262][info] 	- image pair (1441667864, 2127893832) contains 3315 putative matches.
+[13:02:17.744262][info] 	- image pair (1566599810, 2127893832) contains 133 putative matches.
+[13:02:17.744262][info] Task (Regions Matching) done in (s): 1.713000
+[13:02:17.746058][info] Geometric filtering: using fundamental_matrix
+Robust Model Estimation
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[13:02:17.934235][info] 10 geometric image pair matches:
+[13:02:17.934235][info] 	- image pair (57385936, 391269482) contains 1533 geometric matches.
+[13:02:17.934235][info] 	- image pair (57385936, 1566599810) contains 2402 geometric matches.
+[13:02:17.934235][info] 	- image pair (57385936, 2127893832) contains 120 geometric matches.
+[13:02:17.934235][info] 	- image pair (391269482, 702613737) contains 382 geometric matches.
+[13:02:17.934235][info] 	- image pair (391269482, 1441667864) contains 375 geometric matches.
+[13:02:17.934235][info] 	- image pair (391269482, 1566599810) contains 290 geometric matches.
+[13:02:17.934235][info] 	- image pair (391269482, 2127893832) contains 1279 geometric matches.
+[13:02:17.934235][info] 	- image pair (702613737, 1441667864) contains 758 geometric matches.
+[13:02:17.934235][info] 	- image pair (702613737, 2127893832) contains 2330 geometric matches.
+[13:02:17.934235][info] 	- image pair (1441667864, 2127893832) contains 3135 geometric matches.
+[13:02:17.934235][info] Grid filtering
+[13:02:17.935276][info] After grid filtering:
+[13:02:17.935276][info] 	- image pair (57385936, 391269482) contains 1533 geometric matches.
+[13:02:17.935276][info] 	- image pair (57385936, 1566599810) contains 2402 geometric matches.
+[13:02:17.935276][info] 	- image pair (57385936, 2127893832) contains 120 geometric matches.
+[13:02:17.935276][info] 	- image pair (391269482, 702613737) contains 382 geometric matches.
+[13:02:17.935276][info] 	- image pair (391269482, 1441667864) contains 375 geometric matches.
+[13:02:17.935276][info] 	- image pair (391269482, 1566599810) contains 290 geometric matches.
+[13:02:17.935276][info] 	- image pair (391269482, 2127893832) contains 1279 geometric matches.
+[13:02:17.935276][info] 	- image pair (702613737, 1441667864) contains 758 geometric matches.
+[13:02:17.935276][info] 	- image pair (702613737, 2127893832) contains 2330 geometric matches.
+[13:02:17.935276][info] 	- image pair (1441667864, 2127893832) contains 3135 geometric matches.
+[13:02:17.935276][info] Save geometric matches.
+[13:02:17.950660][info] Task done in (s): 0.204000

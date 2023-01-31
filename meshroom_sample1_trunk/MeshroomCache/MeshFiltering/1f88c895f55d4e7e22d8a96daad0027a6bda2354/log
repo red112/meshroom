@@ -1,0 +1,51 @@
+Program called with the following parameters:
+ * filterLargeTrianglesFactor = 60
+ * filterTrianglesRatio = 0
+ * filteringIterations = 1
+ * filteringSubset = "all"
+ * inputMesh = "D:/meshroom_sample/MeshroomCache/Meshing/7cb8d0a800c48dbefd57ebe2dd43f8003903792c/mesh.obj"
+ * keepLargestMeshOnly = 0
+ * outputMesh = "D:/meshroom_sample/MeshroomCache/MeshFiltering/1f88c895f55d4e7e22d8a96daad0027a6bda2354/mesh.obj"
+ * smoothingBoundariesNeighbours = 0
+ * smoothingIterations = 5
+ * smoothingLambda = 1
+ * smoothingSubset = "all"
+ * verboseLevel = "info"
+
+[13:03:46.951097][info] Loading mesh from obj file: D:/meshroom_sample/MeshroomCache/Meshing/7cb8d0a800c48dbefd57ebe2dd43f8003903792c/mesh.obj
+[13:03:47.034063][info] 	- # vertices: 163394
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 326518
+[13:03:47.300876][info] Mesh loaded: 
+	- #points: 163394
+	- # triangles: 326518
+[13:03:47.300876][info] Mesh file: "D:/meshroom_sample/MeshroomCache/Meshing/7cb8d0a800c48dbefd57ebe2dd43f8003903792c/mesh.obj" loaded.
+[13:03:47.300876][info] Input mesh: 163394 vertices and 326518 facets.
+[13:03:47.300876][info] Start mesh filtering.
+[13:03:47.300876][info] Mesh filtering: iteration 0
+[13:03:47.300876][info] Filtering large triangles.
+[13:03:47.315753][info] Filtering large triangles, done.
+[13:03:47.316813][info] Mesh filtering done: 163394 vertices and 326517 facets.
+[13:03:47.316813][info] Start mesh smoothing.
+[13:03:48.076458][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[13:03:48.232402][info] Optimizing mesh smooth: 
+	- lamda: 1
+	- niters: 5
+[13:03:48.232402][info] Optimizing mesh smooth: iteration 0
+[13:03:48.240605][info] Optimizing mesh smooth: iteration 1
+[13:03:48.245923][info] Optimizing mesh smooth: iteration 2
+[13:03:48.253742][info] Optimizing mesh smooth: iteration 3
+[13:03:48.262623][info] Optimizing mesh smooth: iteration 4
+[13:03:48.268700][info] Mesh smoothing done: 163394 vertices and 326517 facets.
+[13:03:48.268700][info] remove free points from mesh.
+Output mesh: 163394 vertices and 326517 facets.
+[13:03:48.282761][info] Save mesh.
+[13:03:48.282761][info] Save mesh to obj: D:/meshroom_sample/MeshroomCache/MeshFiltering/1f88c895f55d4e7e22d8a96daad0027a6bda2354/mesh.obj
+[13:03:48.282761][info] Nb points: 163393
+[13:03:48.282761][info] Nb triangles: 326517
+[13:03:48.507933][info] Save mesh to obj done.
+[13:03:48.507933][info] Mesh file: "D:/meshroom_sample/MeshroomCache/MeshFiltering/1f88c895f55d4e7e22d8a96daad0027a6bda2354/mesh.obj" saved.
+[13:03:48.507933][info] Task done in (s): 1.552000
