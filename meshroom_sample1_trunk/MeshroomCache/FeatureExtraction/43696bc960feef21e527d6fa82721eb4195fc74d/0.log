@@ -1,0 +1,65 @@
+Program called with the following parameters:
+ * contrastFiltering =  Unknown Type "enum aliceVision::feature::EFeatureConstrastFiltering"
+ * describerPreset =  Unknown Type "enum aliceVision::feature::EImageDescriberPreset"
+ * describerQuality =  Unknown Type "enum aliceVision::feature::EFeatureQuality"
+ * describerTypes = "sift"
+ * forceCpuExtraction = 1
+ * gridFiltering = 1
+ * input = "D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/CameraInit/1d9d60ca1c2ed8f9aa44345da13eb0132a44ea61/cameraInit.sfm"
+ * maxNbFeatures = 0 (default)
+ * maxThreads = 0
+ * output = "D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/FeatureExtraction/43696bc960feef21e527d6fa82721eb4195fc74d"
+ * rangeSize = 40
+ * rangeStart = 0
+ * relativePeakThreshold = 0.02 (default)
+ * verboseLevel =  Unknown Type "enum aliceVision::system::EVerboseLevel"
+
+[10:01:31.262984][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    NVIDIA GeForce RTX 3070 Laptop GPU
+	- compute capability:      8.6
+	- total device memory:     8191 MB 
+	- device memory available: 7132 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   1536
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        40
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+0
+[10:01:31.380925][info] Supported CUDA-Enabled GPU detected.
+[10:01:31.380925][info] Job max memory consumption for one image: 3730 MB
+[10:01:31.380925][info] Memory information: 
+	- Total RAM:     63.3555 GB
+	- Free RAM:      56.0457 GB
+	- Available RAM: 56.0457 GB
+	- Total swap:    131072 GB
+	- Free swap:     130987 GB
+[10:01:31.380925][info] Max number of threads regarding memory usage: 13
+[10:01:31.380925][info] # threads for extraction: 6
+[10:01:31.626608][info] Extracting sift features from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1032.jpg' [cpu]
+[10:01:31.643054][info] Extracting sift features from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1040.jpg' [cpu]
+[10:01:31.646032][info] Extracting sift features from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1028.jpg' [cpu]
+[10:01:31.706031][info] Extracting sift features from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1024.jpg' [cpu]
+[10:01:31.717296][info] Extracting sift features from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1030.jpg' [cpu]
+[10:01:31.721611][info] Extracting sift features from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1026.jpg' [cpu]
+[10:01:45.033340][info]       20000 sift features extracted from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1030.jpg'
+[10:01:45.380436][info]       20000 sift features extracted from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1040.jpg'
+[10:01:45.405256][info]       20000 sift features extracted from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1026.jpg'
+[10:01:45.537171][info]       20000 sift features extracted from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1024.jpg'
+[10:01:45.651613][info]       20000 sift features extracted from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1032.jpg'
+[10:01:45.904946][info]       20000 sift features extracted from view 'D:/git/meshroom/meshroom_sample1_trunk/IMG_1028.jpg'
+[10:01:45.909402][info] Task done in (s): 14.522000

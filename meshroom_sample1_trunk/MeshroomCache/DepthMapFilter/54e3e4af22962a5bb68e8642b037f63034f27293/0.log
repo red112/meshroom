@@ -1,0 +1,29 @@
+Program called with the following parameters:
+ * computeNormalMaps = 0
+ * depthMapsFolder = "D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/DepthMap/efbb4545080abf863618612afd683b54450c82a5"
+ * input = "D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/StructureFromMotion/d437a3a6c708a1a0d566af17e9f091b46552caed/sfm.abc"
+ * maxViewAngle = 70
+ * minNumOfConsistentCams = 3
+ * minNumOfConsistentCamsWithLowSimilarity = 4
+ * minViewAngle = 2
+ * nNearestCams = 10
+ * output = "D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/DepthMapFilter/54e3e4af22962a5bb68e8642b037f63034f27293"
+ * pixSizeBall = 0
+ * pixSizeBallWithLowSimilarity = 0
+ * rangeSize = 10
+ * rangeStart = 0
+ * verboseLevel = "info"
+
+[10:02:28.654849][info] Found 1 image dimension(s): 
+[10:02:28.654849][info] 	- [4032x3024]
+[10:02:28.661580][info] Overall maximum dimension: [4032x3024]
+[10:02:28.661580][info] Filter depth maps.
+[10:02:28.661580][info] Precomputing groups.
+[10:02:28.790475][info] Found only 3/10 nearest cameras for view id: 1160996823
+[10:02:28.801783][info] Found only 5/10 nearest cameras for view id: 1294299818
+[10:02:28.815246][info] Found only 4/10 nearest cameras for view id: 1817637687
+[10:02:28.824046][info] Found only 5/10 nearest cameras for view id: 1708421501
+[10:02:28.835850][info] Found only 4/10 nearest cameras for view id: 1293670207
+[10:02:28.835850][info] Found only 5/10 nearest cameras for view id: 935868197
+[10:02:36.716001][info] Filtering depth maps.
+[10:02:37.188441][info] Task done in (s): 8.547000

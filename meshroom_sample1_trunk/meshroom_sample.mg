@@ -4,15 +4,15 @@
         "releaseVersion": "2021.1.0",
         "fileVersion": "1.1",
         "nodesVersions": {
-            "PrepareDenseScene": "3.0",
             "FeatureExtraction": "1.1",
-            "CameraInit": "4.0",
-            "Texturing": "5.0",
-            "StructureFromMotion": "2.0",
-            "DepthMapFilter": "3.0",
-            "ImageMatching": "2.0",
-            "DepthMap": "2.0",
             "MeshFiltering": "3.0",
+            "StructureFromMotion": "2.0",
+            "Texturing": "5.0",
+            "DepthMapFilter": "3.0",
+            "PrepareDenseScene": "3.0",
+            "DepthMap": "2.0",
+            "ImageMatching": "2.0",
+            "CameraInit": "4.0",
             "Meshing": "7.0",
             "FeatureMatching": "2.0"
         }
@@ -30,69 +30,69 @@
                 "split": 1
             },
             "uids": {
-                "0": "0b363caf2b37852dd58cad270d67d461805dae63"
+                "0": "1d9d60ca1c2ed8f9aa44345da13eb0132a44ea61"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
                 "viewpoints": [
                     {
-                        "viewId": 57385936,
-                        "poseId": 57385936,
-                        "path": "D:/meshroom_sample/IMG_1026.jpg",
-                        "intrinsicId": 2582680663,
+                        "viewId": 935868197,
+                        "poseId": 935868197,
+                        "path": "D:/git/meshroom/meshroom_sample1_trunk/IMG_1030.jpg",
+                        "intrinsicId": 3175506779,
                         "rigId": -1,
                         "subPoseId": -1,
-                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:32\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.00969\", \"Exif:ColorSpace\": \"65535\", \"Exif:CustomRendered\": \"2\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:32\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:32\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"25\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"5.90695\", \"Exif:SubsecTimeDigitized\": \"966\", \"Exif:SubsecTimeOriginal\": \"966\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.0166667\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1224.68\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"346.362\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"8\", \"GPS:ImgDirection\": \"346.362\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.81\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.29\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.188065\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 32\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
+                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:40\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.13984\", \"Exif:ColorSpace\": \"65535\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:40\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:40\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"20\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"5.90695\", \"Exif:SubsecTimeDigitized\": \"039\", \"Exif:SubsecTimeOriginal\": \"039\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.0166667\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1226.57\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"292.657\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"12\", \"GPS:ImgDirection\": \"292.657\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.87\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.43\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.321036\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 39\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
                     },
                     {
-                        "viewId": 391269482,
-                        "poseId": 391269482,
-                        "path": "D:/meshroom_sample/IMG_1028.jpg",
-                        "intrinsicId": 2582680663,
-                        "rigId": -1,
-                        "subPoseId": -1,
-                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:37\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"4.88065\", \"Exif:ColorSpace\": \"65535\", \"Exif:CustomRendered\": \"2\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:37\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:37\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"25\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"5.90695\", \"Exif:SubsecTimeDigitized\": \"070\", \"Exif:SubsecTimeOriginal\": \"070\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.0166667\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1224.76\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"321.639\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"12\", \"GPS:ImgDirection\": \"321.639\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.86\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.37\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.178955\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 36\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
-                    },
-                    {
-                        "viewId": 702613737,
-                        "poseId": 702613737,
-                        "path": "D:/meshroom_sample/IMG_1040.jpg",
-                        "intrinsicId": 2582680663,
-                        "rigId": -1,
-                        "subPoseId": -1,
-                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:32:07\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.27233\", \"Exif:ColorSpace\": \"65535\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:32:07\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:32:07\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"40\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"6.90799\", \"Exif:SubsecTimeDigitized\": \"397\", \"Exif:SubsecTimeOriginal\": \"397\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.00833333\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1225.15\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"296.664\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"16\", \"GPS:ImgDirection\": \"296.664\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.87\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.54\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.00208859\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 32, 7\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
-                    },
-                    {
-                        "viewId": 1441667864,
-                        "poseId": 1441667864,
-                        "path": "D:/meshroom_sample/IMG_1032.jpg",
-                        "intrinsicId": 2582680663,
-                        "rigId": -1,
-                        "subPoseId": -1,
-                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:43\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.30845\", \"Exif:ColorSpace\": \"65535\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:43\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:43\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"40\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"6.90799\", \"Exif:SubsecTimeDigitized\": \"375\", \"Exif:SubsecTimeOriginal\": \"375\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.00833333\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1225.62\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"280.988\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"8\", \"GPS:ImgDirection\": \"280.988\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.84\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.43\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.0628009\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 43\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
-                    },
-                    {
-                        "viewId": 1566599810,
-                        "poseId": 1566599810,
-                        "path": "D:/meshroom_sample/IMG_1024.jpg",
-                        "intrinsicId": 2582680663,
+                        "viewId": 1160996823,
+                        "poseId": 1160996823,
+                        "path": "D:/git/meshroom/meshroom_sample1_trunk/IMG_1024.jpg",
+                        "intrinsicId": 3175506779,
                         "rigId": -1,
                         "subPoseId": -1,
                         "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:28\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.17327\", \"Exif:ColorSpace\": \"65535\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:28\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:28\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"40\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"6.90799\", \"Exif:SubsecTimeDigitized\": \"462\", \"Exif:SubsecTimeOriginal\": \"462\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.00833333\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1224.42\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"7.97446\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"8\", \"GPS:ImgDirection\": \"7.97446\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.86\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.18\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.0605214\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 28\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
                     },
                     {
-                        "viewId": 2127893832,
-                        "poseId": 2127893832,
-                        "path": "D:/meshroom_sample/IMG_1030.jpg",
-                        "intrinsicId": 2582680663,
+                        "viewId": 1293670207,
+                        "poseId": 1293670207,
+                        "path": "D:/git/meshroom/meshroom_sample1_trunk/IMG_1040.jpg",
+                        "intrinsicId": 3175506779,
                         "rigId": -1,
                         "subPoseId": -1,
-                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:40\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.13984\", \"Exif:ColorSpace\": \"65535\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:40\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:40\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"20\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"5.90695\", \"Exif:SubsecTimeDigitized\": \"039\", \"Exif:SubsecTimeOriginal\": \"039\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.0166667\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1226.57\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"292.657\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"12\", \"GPS:ImgDirection\": \"292.657\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.87\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.43\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.321036\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 39\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
+                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:32:07\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.27233\", \"Exif:ColorSpace\": \"65535\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:32:07\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:32:07\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"40\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"6.90799\", \"Exif:SubsecTimeDigitized\": \"397\", \"Exif:SubsecTimeOriginal\": \"397\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.00833333\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1225.15\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"296.664\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"16\", \"GPS:ImgDirection\": \"296.664\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.87\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.54\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.00208859\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 32, 7\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
+                    },
+                    {
+                        "viewId": 1294299818,
+                        "poseId": 1294299818,
+                        "path": "D:/git/meshroom/meshroom_sample1_trunk/IMG_1028.jpg",
+                        "intrinsicId": 3175506779,
+                        "rigId": -1,
+                        "subPoseId": -1,
+                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:37\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"4.88065\", \"Exif:ColorSpace\": \"65535\", \"Exif:CustomRendered\": \"2\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:37\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:37\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"25\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"5.90695\", \"Exif:SubsecTimeDigitized\": \"070\", \"Exif:SubsecTimeOriginal\": \"070\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.0166667\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1224.76\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"321.639\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"12\", \"GPS:ImgDirection\": \"321.639\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.86\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.37\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.178955\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 36\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
+                    },
+                    {
+                        "viewId": 1708421501,
+                        "poseId": 1708421501,
+                        "path": "D:/git/meshroom/meshroom_sample1_trunk/IMG_1026.jpg",
+                        "intrinsicId": 3175506779,
+                        "rigId": -1,
+                        "subPoseId": -1,
+                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:32\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.00969\", \"Exif:ColorSpace\": \"65535\", \"Exif:CustomRendered\": \"2\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:32\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:32\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"25\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"5.90695\", \"Exif:SubsecTimeDigitized\": \"966\", \"Exif:SubsecTimeOriginal\": \"966\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.0166667\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1224.68\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"346.362\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"8\", \"GPS:ImgDirection\": \"346.362\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.81\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.29\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.188065\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 32\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
+                    },
+                    {
+                        "viewId": 1817637687,
+                        "poseId": 1817637687,
+                        "path": "D:/git/meshroom/meshroom_sample1_trunk/IMG_1032.jpg",
+                        "intrinsicId": 3175506779,
+                        "rigId": -1,
+                        "subPoseId": -1,
+                        "metadata": "{\"AliceVision:SensorWidth\": \"4.890000\", \"AliceVision:useWhiteBalance\": \"1\", \"DateTime\": \"2017:07:18 15:31:43\", \"Exif:ApertureValue\": \"1.69599\", \"Exif:BrightnessValue\": \"5.30845\", \"Exif:ColorSpace\": \"65535\", \"Exif:DateTimeDigitized\": \"2017:07:18 15:31:43\", \"Exif:DateTimeOriginal\": \"2017:07:18 15:31:43\", \"Exif:ExifVersion\": \"0221\", \"Exif:ExposureBiasValue\": \"0\", \"Exif:ExposureMode\": \"0\", \"Exif:ExposureProgram\": \"2\", \"Exif:Flash\": \"24\", \"Exif:FlashPixVersion\": \"0100\", \"Exif:FocalLength\": \"3.99\", \"Exif:FocalLengthIn35mmFilm\": \"28\", \"Exif:LensMake\": \"Apple\", \"Exif:LensModel\": \"iPhone 7 back camera 3.99mm f/1.8\", \"Exif:LensSpecification\": \"3.99, 3.99, 1.8, 1.8\", \"Exif:MeteringMode\": \"5\", \"Exif:PhotographicSensitivity\": \"40\", \"Exif:PixelXDimension\": \"4032\", \"Exif:PixelYDimension\": \"3024\", \"Exif:SceneCaptureType\": \"0\", \"Exif:SensingMethod\": \"2\", \"Exif:ShutterSpeedValue\": \"6.90799\", \"Exif:SubsecTimeDigitized\": \"375\", \"Exif:SubsecTimeOriginal\": \"375\", \"Exif:WhiteBalance\": \"0\", \"Exif:YCbCrPositioning\": \"1\", \"ExposureTime\": \"0.00833333\", \"FNumber\": \"1.8\", \"GPS:Altitude\": \"1225.62\", \"GPS:AltitudeRef\": \"0\", \"GPS:DateStamp\": \"2017:07:18\", \"GPS:DestBearing\": \"280.988\", \"GPS:DestBearingRef\": \"T\", \"GPS:HPositioningError\": \"8\", \"GPS:ImgDirection\": \"280.988\", \"GPS:ImgDirectionRef\": \"T\", \"GPS:Latitude\": \"37, 43, 23.84\", \"GPS:LatitudeRef\": \"N\", \"GPS:Longitude\": \"119, 36, 57.43\", \"GPS:LongitudeRef\": \"W\", \"GPS:Speed\": \"0.0628009\", \"GPS:SpeedRef\": \"K\", \"GPS:TimeStamp\": \"22, 31, 43\", \"ICCProfile\": \"0, 0, 2, 36, 97, 112, 112, 108, 4, 0, 0, 0, 109, 110, 116, 114, 82, 71, 66, 32, 88, 89, 90, 32, 7, 223, 0, 10, 0, 14, 0, 13, 0, 8, 0, 57, 97, 99, 115, 112, 65, 80, 80, 76, 0, 0, 0, 0, 65, 80, 80, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... [548 x uint8]\", \"Make\": \"Apple\", \"Model\": \"iPhone 7\", \"Orientation\": \"6\", \"ResolutionUnit\": \"none\", \"Software\": \"10.3.2\", \"XResolution\": \"72\", \"YResolution\": \"72\", \"jpeg:subsampling\": \"4:2:0\", \"oiio:ColorSpace\": \"sRGB\"}"
                     }
                 ],
                 "intrinsics": [
                     {
-                        "intrinsicId": 2582680663,
+                        "intrinsicId": 3175506779,
                         "pxInitialFocalLength": 3289.914110429448,
                         "pxFocalLength": 3289.914110429448,
                         "type": "radial3",
@@ -100,7 +100,7 @@
                         "height": 3024,
                         "sensorWidth": 4.89,
                         "sensorHeight": 3.6675,
-                        "serialNumber": "D:/meshroom_sample_Apple_iPhone 7",
+                        "serialNumber": "D:/git/meshroom/meshroom_sample1_trunk_Apple_iPhone 7",
                         "principalPoint": {
                             "x": 2016.0,
                             "y": 1512.0
@@ -114,7 +114,7 @@
                         "locked": false
                     }
                 ],
-                "sensorDatabase": "C:\\Users\\GIGABYTE\\Downloads\\Meshroom-2021.1.0-win64\\Meshroom-2021.1.0\\aliceVision\\share\\aliceVision\\cameraSensors.db",
+                "sensorDatabase": "D:\\Meshroom-2021.1.0-win64\\Meshroom-2021.1.0\\aliceVision\\share\\aliceVision\\cameraSensors.db",
                 "defaultFieldOfView": 45.0,
                 "groupCameraFallback": "folder",
                 "allowedCameraModels": [
@@ -146,7 +146,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "44f7052ad527d5608ba2abd4161cc19f3e4801bf"
+                "0": "43696bc960feef21e527d6fa82721eb4195fc74d"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -180,7 +180,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "25b77cbf4c977ee7113f917d05e9b133a54f2473"
+                "0": "a5e3b73787bfa5e925c934021518d71191335f9e"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -189,7 +189,7 @@
                     "{FeatureExtraction_1.output}"
                 ],
                 "method": "VocabularyTree",
-                "tree": "C:\\Users\\GIGABYTE\\Downloads\\Meshroom-2021.1.0-win64\\Meshroom-2021.1.0\\aliceVision\\share\\aliceVision\\vlfeat_K80L3.SIFT.tree",
+                "tree": "D:\\Meshroom-2021.1.0-win64\\Meshroom-2021.1.0\\aliceVision\\share\\aliceVision\\vlfeat_K80L3.SIFT.tree",
                 "weights": "",
                 "minNbImages": 200,
                 "maxDescriptors": 500,
@@ -213,7 +213,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "0f525c5c13a92c2522bf8eff2952eb5cc486130c"
+                "0": "8f1bf06f76591502542a46730aaf8549d5664404"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -252,7 +252,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "c09c96d30eedfb2a3127e2b6250dc939f51e76eb"
+                "0": "d437a3a6c708a1a0d566af17e9f091b46552caed"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -305,7 +305,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "09a0240397ad7fa7c8b801b71b8baa10d68a8486"
+                "0": "94985b7c76726133b3a384512b49d1187c0d1b7e"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -334,7 +334,7 @@
                 "split": 2
             },
             "uids": {
-                "0": "63062989235fd325b046886c52897f55048389be"
+                "0": "efbb4545080abf863618612afd683b54450c82a5"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -376,7 +376,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "72690ceaece1bfd6c4d279fc73f4c2b266dd40ce"
+                "0": "54e3e4af22962a5bb68e8642b037f63034f27293"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -408,7 +408,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "7cb8d0a800c48dbefd57ebe2dd43f8003903792c"
+                "0": "1cfe882077dbcd5aa114e977d5525828a3bfa0ad"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -490,7 +490,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "1f88c895f55d4e7e22d8a96daad0027a6bda2354"
+                "0": "e51bf6ef8cfa4ac0164fcc19f175b0727ef7f2a0"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {
@@ -522,7 +522,7 @@
                 "split": 1
             },
             "uids": {
-                "0": "d1b4ee813b9b72e3d2acee5a8511c56ce86ed0fc"
+                "0": "4af48bb1c6897f4f3083f49db60beb323631472a"
             },
             "internalFolder": "{cache}/{nodeType}/{uid0}/",
             "inputs": {

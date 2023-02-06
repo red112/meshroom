@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "ImageMatching_1",
+    "nodeType": "ImageMatching",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_imageMatching  --input \"D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/CameraInit/1d9d60ca1c2ed8f9aa44345da13eb0132a44ea61/cameraInit.sfm\" --featuresFolders \"D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/FeatureExtraction/43696bc960feef21e527d6fa82721eb4195fc74d\" --method VocabularyTree --tree \"D:\\Meshroom-2021.1.0-win64\\Meshroom-2021.1.0\\aliceVision\\share\\aliceVision\\vlfeat_K80L3.SIFT.tree\" --weights \"\" --minNbImages 200 --maxDescriptors 500 --nbMatches 50 --verboseLevel info --output \"D:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/ImageMatching/a5e3b73787bfa5e925c934021518d71191335f9e/imageMatches.txt\"",
+    "env": null,
+    "startDateTime": "2023-02-01 10:01:46.020530",
+    "endDateTime": "2023-02-01 10:01:46.184576",
+    "elapsedTime": 0.1640462875366211,
+    "hostname": "DESKTOP-HOHSV2G",
+    "sessionUid": "c23443e4-a1be-11ed-aa40-c03c59cfadf4",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.164046"
+}
