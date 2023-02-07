@@ -1,0 +1,124 @@
+Program called with the following parameters:
+ * angleHardThreshold = 90
+ * bestScoreThreshold = 0.1
+ * correctEV = 0
+ * downscale =  Unknown Type "unsigned int"
+ * fillHoles = 0
+ * flipNormals = 0
+ * forceVisibleByAllVertices = 0
+ * imagesFolder = ""
+ * input = "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Meshing/7caafb4929346e8ed49bddbf5cb850ed7335da86/densePointCloud.abc"
+ * inputMesh = "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshDecimate/760c788a299c89f7800d1f142f9e6abef7ced354/mesh.obj"
+ * multiBandDownscale =  Unknown Type "unsigned int"
+ * multiBandNbContrib =  Unknown Type "class std::vector<int,class std::allocator<int> >"
+ * output = "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Texturing/fab38c7830ebbff264efcdefc50c77a0da727771"
+ * outputTextureFileType = "png"
+ * padding =  Unknown Type "unsigned int"
+ * processColorspace = "sRGB"
+ * subdivisionTargetRatio = 0.8
+ * textureSide =  Unknown Type "unsigned int"
+ * unwrapMethod = "Basic"
+ * useScore = 1
+ * useUDIM = 1
+ * verboseLevel = "info"
+ * visibilityRemappingMethod = "PullPush"
+
+[13:03:21.957605][info] Load dense point cloud.
+[13:03:21.957605][warning] Alembic LOAD: NO OBSERVATIONS_WITH_FEATURES: , mvg_visibilityFeatId: 0, mvg_visibilityFeatPos: 0, OBSERVATIONS_WITH_FEATURES flag: false
+[13:03:21.964302][info] Found 1 image dimension(s): 
+[13:03:21.964302][info] 	- [4032x3024]
+[13:03:21.964302][info] Overall maximum dimension: [4032x3024]
+[13:03:21.964302][info] Load input mesh.
+[13:03:21.964302][info] Loading mesh from obj file: d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshDecimate/760c788a299c89f7800d1f142f9e6abef7ced354/mesh.obj
+[13:03:21.971118][info] 	- # vertices: 2049
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 3965
+[13:03:21.971118][info] Mesh loaded: 
+	- #points: 2049
+	- # triangles: 3965
+[13:03:21.971118][info] Convert dense point cloud into ref mesh
+[13:03:21.978211][info] remapMeshVisibility based on triangles start.
+[13:03:21.978211][info] remapMeshVisibility done.
+[13:03:21.978211][info] Input mesh has no UV coordinates, start unwrapping (Basic)
+[13:03:21.978211][info] Generating UVs (textureSide: 8192; padding: 5).
+[13:03:21.978211][info] Creating texture charts.
+[13:03:21.984922][info] Packing texture charts (3965 charts).
+[13:03:21.991845][info] Finalize packed charts (36 charts).
+[13:03:21.991845][info] Creating texture atlases.
+[13:03:21.991845][info] 	- texture atlas 1
+[13:03:21.991845][info] Filled with 36 charts.
+[13:03:21.998773][info] Unwrapping done.
+[13:03:21.998773][info] Writing obj and mtl file.
+[13:03:22.005846][info] Writing done: 
+	- obj file: d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Texturing/fab38c7830ebbff264efcdefc50c77a0da727771\texturedMesh.obj
+	- mtl file: d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Texturing/fab38c7830ebbff264efcdefc50c77a0da727771\texturedMesh.mtl
+[13:03:22.005846][info] Subdivide mesh.
+[13:03:22.005846][info] nb pts init: 2049
+[13:03:22.005846][info] nb tris init: 3965
+[13:03:22.005846][info] nb points in refMesh: 4099
+[13:03:22.005846][info] targetNbPts: 3279
+[13:03:22.019680][info] 	- # triangles to subdivide: 1649
+[13:03:22.019680][info] 	- # pts to add: 1380
+[13:03:22.019680][info] Nb points after subdivision: 3429
+[13:03:22.019680][info] Nb tris after subdivision: 6681
+[13:03:22.019680][info] Number of triangle subdivisions: 1649
+[13:03:22.019680][info] updateAtlases
+[13:03:22.019680][info] remapMeshVisibility based on triangles start.
+[13:03:22.034559][info] remapMeshVisibility done.
+[13:03:22.034559][info] Generate textures.
+[13:03:22.035560][info] Texturing: Use multiband blending with the following contributions per band:
+[13:03:22.035560][info]   - 1
+[13:03:22.035560][info]   - 5
+[13:03:22.035560][info]   - 10
+[13:03:22.035560][info] Texturing in sRGB colorspace.
+[13:03:22.035560][info] Images loaded from cache with: no exposure correction
+[13:03:22.035560][info] nbAtlas: 1
+[13:03:22.035560][info] availableRam: 55555
+[13:03:22.035560][info] availableMem: 54443
+[13:03:22.035560][info] memoryPerAtlas: 3628
+[13:03:22.035560][info] nbAtlasMax (after rounding): 1
+[13:03:22.035560][info] Total amount of available RAM: 55555 MB.
+[13:03:22.035560][info] Total amount of memory remaining for the computation: 54443 MB.
+[13:03:22.035560][info] Total amount of an image in memory: 139 MB.
+[13:03:22.035560][info] Total amount of an atlas pyramid in memory: 3072 MB.
+[13:03:22.035560][info] Processing 1 atlases by chunks of 1
+[13:03:22.035560][info] Generating texture for atlases 1 to 1
+[13:03:22.035560][info] Generating texture for atlas 1/1 (6681 triangles).
+[13:03:22.068141][info] Reading pixel color.
+[13:03:22.605772][info] - camera 935868197 (1/6) with contributions to 1 texture files:
+[13:03:23.220934][info]   - Texture file: 1
+[13:03:23.220934][info]       - band 1: 160 triangles.
+[13:03:23.235033][info]       - band 2: 5707 triangles.
+[13:03:23.467435][info]       - band 3: 0 triangles.
+[13:03:23.474734][info] - camera 1160996823 (2/6) with contributions to 1 texture files:
+[13:03:24.171989][info]   - Texture file: 1
+[13:03:24.171989][info]       - band 1: 1725 triangles.
+[13:03:24.284492][info]       - band 2: 2260 triangles.
+[13:03:24.386243][info]       - band 3: 0 triangles.
+[13:03:24.392197][info] - camera 1293670207 (3/6) with contributions to 1 texture files:
+[13:03:24.970586][info]   - Texture file: 1
+[13:03:24.970586][info]       - band 1: 1968 triangles.
+[13:03:25.225363][info]       - band 2: 3032 triangles.
+[13:03:25.343419][info]       - band 3: 0 triangles.
+[13:03:25.352333][info] - camera 1294299818 (4/6) with contributions to 1 texture files:
+[13:03:25.925585][info]   - Texture file: 1
+[13:03:25.925585][info]       - band 1: 390 triangles.
+[13:03:25.951813][info]       - band 2: 5896 triangles.
+[13:03:26.244565][info]       - band 3: 0 triangles.
+[13:03:26.251534][info] - camera 1708421501 (5/6) with contributions to 1 texture files:
+[13:03:26.834164][info]   - Texture file: 1
+[13:03:26.834164][info]       - band 1: 998 triangles.
+[13:03:26.907675][info]       - band 2: 4261 triangles.
+[13:03:27.120869][info]       - band 3: 0 triangles.
+[13:03:27.128819][info] - camera 1817637687 (6/6) with contributions to 1 texture files:
+[13:03:27.696204][info]   - Texture file: 1
+[13:03:27.696204][info]       - band 1: 1365 triangles.
+[13:03:27.814133][info]       - band 2: 3807 triangles.
+[13:03:28.019607][info]       - band 3: 0 triangles.
+[13:03:28.027536][info] Create texture 1
+[13:03:28.027536][info]   - Computing final (average) color.
+[13:03:28.634977][info]   - Edge padding (15 pixels).
+[13:03:28.981835][info]   - Downscaling texture (2x).
+[13:03:33.250640][info]   - Writing texture file: d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Texturing/fab38c7830ebbff264efcdefc50c77a0da727771\texture_1001.png
+[13:03:34.683781][info] Task done in (s): 12.729000

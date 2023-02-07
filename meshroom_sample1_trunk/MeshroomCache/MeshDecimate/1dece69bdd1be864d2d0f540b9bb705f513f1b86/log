@@ -1,0 +1,18 @@
+Program called with the following parameters:
+ * flipNormals = 0
+ * input = "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshFiltering/e51bf6ef8cfa4ac0164fcc19f175b0727ef7f2a0/mesh.obj"
+ * maxVertices = 10000
+ * minVertices = 0
+ * nbVertices = 0
+ * output = "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshDecimate/1dece69bdd1be864d2d0f540b9bb705f513f1b86/mesh.obj"
+ * simplificationFactor = 0.5
+ * verboseLevel = "info"
+
+[12:57:31.177880][info] Mesh file: "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshFiltering/e51bf6ef8cfa4ac0164fcc19f175b0727ef7f2a0/mesh.obj" loaded.
+[12:57:31.184758][info] Input mesh: 163576 vertices and 326901 facets.
+[12:57:31.184758][info] Target output mesh: 10000 vertices.
+Quadric
+[12:57:33.802972][info] Output mesh: 10000 vertices and 19772 facets.
+[12:57:33.802972][info] Save mesh.
+[12:57:33.851947][info] Mesh file: "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshDecimate/1dece69bdd1be864d2d0f540b9bb705f513f1b86/mesh.obj" saved.
+[12:57:33.851947][info] Task done in (s): 4.279000

@@ -1,0 +1,51 @@
+Program called with the following parameters:
+ * filterLargeTrianglesFactor = 60
+ * filterTrianglesRatio = 0
+ * filteringIterations = 1
+ * filteringSubset = "all"
+ * inputMesh = "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Meshing/7caafb4929346e8ed49bddbf5cb850ed7335da86/mesh.obj"
+ * keepLargestMeshOnly = 0
+ * outputMesh = "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshFiltering/90ea4de22761adadf4d73f065ed93436f9dabe50/mesh.obj"
+ * smoothingBoundariesNeighbours = 0
+ * smoothingIterations = 5
+ * smoothingLambda = 1
+ * smoothingSubset = "all"
+ * verboseLevel = "info"
+
+[13:03:21.319664][info] Loading mesh from obj file: d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Meshing/7caafb4929346e8ed49bddbf5cb850ed7335da86/mesh.obj
+[13:03:21.323719][info] 	- # vertices: 4099
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 8026
+[13:03:21.332156][info] Mesh loaded: 
+	- #points: 4099
+	- # triangles: 8026
+[13:03:21.332156][info] Mesh file: "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/Meshing/7caafb4929346e8ed49bddbf5cb850ed7335da86/mesh.obj" loaded.
+[13:03:21.332156][info] Input mesh: 4099 vertices and 8026 facets.
+[13:03:21.332156][info] Start mesh filtering.
+[13:03:21.332156][info] Mesh filtering: iteration 0
+[13:03:21.332156][info] Filtering large triangles.
+[13:03:21.333155][info] Filtering large triangles, done.
+[13:03:21.334155][info] Mesh filtering done: 4099 vertices and 8026 facets.
+[13:03:21.334155][info] Start mesh smoothing.
+[13:03:21.355048][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[13:03:21.360927][info] Optimizing mesh smooth: 
+	- lamda: 1
+	- niters: 5
+[13:03:21.360927][info] Optimizing mesh smooth: iteration 0
+[13:03:21.361927][info] Optimizing mesh smooth: iteration 1
+[13:03:21.361927][info] Optimizing mesh smooth: iteration 2
+[13:03:21.361927][info] Optimizing mesh smooth: iteration 3
+[13:03:21.362927][info] Optimizing mesh smooth: iteration 4
+[13:03:21.362927][info] Mesh smoothing done: 4099 vertices and 8026 facets.
+[13:03:21.362927][info] remove free points from mesh.
+Output mesh: 4099 vertices and 8026 facets.
+[13:03:21.362927][info] Save mesh.
+[13:03:21.362927][info] Save mesh to obj: d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshFiltering/90ea4de22761adadf4d73f065ed93436f9dabe50/mesh.obj
+[13:03:21.362927][info] Nb points: 4099
+[13:03:21.362927][info] Nb triangles: 8026
+[13:03:21.373824][info] Save mesh to obj done.
+[13:03:21.373824][info] Mesh file: "d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshFiltering/90ea4de22761adadf4d73f065ed93436f9dabe50/mesh.obj" saved.
+[13:03:21.373824][info] Task done in (s): 0.054000

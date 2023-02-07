@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "MeshDecimate_1",
+    "nodeType": "MeshDecimate",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_meshDecimate  --input \"d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshFiltering/90ea4de22761adadf4d73f065ed93436f9dabe50/mesh.obj\" --simplificationFactor 0.5 --nbVertices 0 --minVertices 0 --maxVertices 10000 --flipNormals False --verboseLevel info --output \"d:/git/meshroom/meshroom_sample1_trunk/MeshroomCache/MeshDecimate/760c788a299c89f7800d1f142f9e6abef7ced354/mesh.obj\"",
+    "env": null,
+    "startDateTime": "2023-02-07 13:03:21.453326",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "DESKTOP-HOHSV2G",
+    "sessionUid": "799bfe92-a699-11ed-a457-c03c59cfadf4",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00"
+}
